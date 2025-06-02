@@ -16,3 +16,4 @@ if st.button("Predict Package"):
     predicted_value= float(prediction[0])
 
     st.success(f"Predicted Package:₹{predicted_value:,.2f}LPA")
+    
